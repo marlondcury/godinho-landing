@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Título e descrição padrão (fallback). Cada página define os seus via
+         react-helmet-async — ver src/components/Seo.jsx e src/pages/*. -->
+    <title>Advogado em Governador Valadares | Godinho Advocacia e Assessoria Jurídica</title>
+    <meta
+      name="description"
+      content="Escritório de advocacia em Governador Valadares (MG) com mais de 12 anos de tradição. Atuação em Direito de Família, Penal, Previdenciário, do Consumidor e mais. Atendimento personalizado — agende sua consulta."
+    />
+    <link rel="canonical" href="https://marlondcury.github.io/godinho-landing/" />
+
+    <!-- SEO local -->
+    <meta name="geo.region" content="BR-MG" />
+    <meta name="geo.placename" content="Governador Valadares" />
+    <meta name="geo.position" content="-18.8549;-41.9559" />
+    <meta name="ICBM" content="-18.8549, -41.9559" />
+
+    <!-- Open Graph / redes sociais (fallback estático — funciona mesmo sem JS) -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Godinho Advocacia e Assessoria Jurídica" />
+    <meta property="og:title" content="Advogado em Governador Valadares | Godinho Advocacia e Assessoria Jurídica" />
+    <meta
+      property="og:description"
+      content="Escritório de advocacia em Governador Valadares (MG) com mais de 12 anos de tradição. Direito de Família, Penal, Previdenciário, do Consumidor e mais."
+    />
+    <meta property="og:image" content="https://marlondcury.github.io/godinho-landing/images/og-image.jpg" />
+    <meta property="og:locale" content="pt_BR" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <link rel="icon" type="image/png" href="/images/logo.png" />
+    <link rel="apple-touch-icon" href="/images/logo.png" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+    <script type="text/javascript">
+      // Contraparte do public/404.html — restaura a URL original depois do
+      // redirect do GitHub Pages, antes do React Router assumir a navegação.
+      // Referência: https://github.com/rafgraph/spa-github-pages
+      ;(function (l) {
+        if (l.search[1] === '/') {
+          var decoded = l.search
+            .slice(1)
+            .split('&')
+            .map(function (s) {
+              return s.replace(/~and~/g, '&')
+            })
+            .join('?')
+          window.history.replaceState(null, null, l.pathname.slice(0, -1) + decoded + l.hash)
+        }
+      })(window.location)
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

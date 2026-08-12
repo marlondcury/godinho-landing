@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <title>Godinho Advocacia e Assessoria Jurídica</title>
+    <script type="text/javascript">
+      // Truque para páginas de aplicação de página única (SPA) no GitHub Pages.
+      // O GitHub Pages não suporta rewrites de servidor, então quando alguém
+      // acessa uma rota interna diretamente (ex: /godinho-landing/areas/direito-penal)
+      // ou dá F5 nela, o GitHub serve este 404.html. Ele redireciona de volta
+      // para o index.html codificando o caminho original na query string; o
+      // script correspondente no index.html restaura a URL antes do React
+      // Router assumir. Referência: https://github.com/rafgraph/spa-github-pages
+      var pathSegmentsToKeep = 1 // 1 segmento = nome do repositório (/godinho-landing/)
+
+      var l = window.location
+      l.replace(
+        l.protocol +
+          '//' +
+          l.hostname +
+          (l.port ? ':' + l.port : '') +
+          l.pathname.split('/').slice(0, 1 + pathSegmentsToKeep).join('/') +
+          '/?/' +
+          l.pathname
+            .slice(1)
+            .split('/')
+            .slice(pathSegmentsToKeep)
+            .join('/')
+            .replace(/&/g, '~and~') +
+          (l.search ? '&' + l.search.slice(1).replace(/&/g, '~and~') : '') +
+          l.hash
+      )
+    </script>
+  </head>
+  <body></body>
+</html>
