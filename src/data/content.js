@@ -4,7 +4,7 @@ export const firm = {
   name: 'Godinho Advocacia',
   fullName: 'Godinho Advocacia e Assessoria Jurídica',
   slogan: 'Escritório de advocacia, com equipe de profissionais especializados e prontos para atender você.',
-  yearsActive: 12,
+  yearsActive: 15,
   city: 'Governador Valadares',
   state: 'MG',
   region: 'Vale do Rio Doce',
