@@ -23,7 +23,7 @@ export default function WhyUs() {
           <div className="divider-line mt-8" />
         </div>
 
-        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-10">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-10">
           {differentiators.map((item, i) => (
             <div key={item.title}>
               <div className="h-12 w-12 flex items-center justify-center border border-gold/40 text-gold-light mb-6">

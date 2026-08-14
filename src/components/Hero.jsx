@@ -46,8 +46,8 @@ export default function Hero() {
             </div>
             <div className="h-10 w-px bg-cream/15" />
             <div>
-              <span className="block font-serif text-3xl text-gold-light">3</span>
-              advogados especialistas
+              <span className="block font-serif text-3xl text-gold-light">UMA EQUIPE</span>
+              de advogados especialistas
             </div>
           </div>
         </div>

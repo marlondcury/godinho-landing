@@ -34,7 +34,7 @@ export default function About() {
           <div className="mt-12 grid grid-cols-3 gap-6 border-t border-cream/10 pt-8">
             {stats.map((s) => (
               <div key={s.label}>
-                <p className="font-serif text-3xl lg:text-4xl text-gold-light">{s.value}</p>
+                <p className="font-serif text-3xl lg:text-1xl text-gold-light">{s.value}</p>
                 <p className="mt-1 text-xs text-cream/55 leading-snug">{s.label}</p>
               </div>
             ))}

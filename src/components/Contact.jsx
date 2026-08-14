@@ -16,7 +16,7 @@ export default function Contact() {
           <div className="divider-line mt-8" />
         </div>
 
-        <div className="grid lg:grid-cols-5 gap-10">
+        <div className="grid lg:grid-cols-5 gap-10 ">
           <div className="lg:col-span-2 space-y-8">
             <ContactRow
               label="Telefone"
@@ -26,6 +26,7 @@ export default function Contact() {
                 <path d="M4 5c0-.6.4-1 1-1h3l2 5-2 1a11 11 0 005 5l1-2 5 2v3c0 .6-.4 1-1 1h-1C9.5 19 5 14.5 5 8V7" strokeLinecap="round" strokeLinejoin="round" />
               }
             />
+            <br></br>
             <ContactRow
               label="WhatsApp"
               value={firm.whatsappDisplay}
@@ -35,6 +36,8 @@ export default function Contact() {
                 <path d="M12 3a9 9 0 00-7.6 13.8L3 21l4.3-1.4A9 9 0 1012 3z" strokeLinecap="round" strokeLinejoin="round" />
               }
             />
+            <br></br>
+
             <ContactRow
               label="Instagram"
               value={firm.instagram}
@@ -65,7 +68,7 @@ export default function Contact() {
             <iframe
               title="Localização Godinho Advocacia"
               src={mapsEmbedSrc}
-              className="w-full h-full grayscale contrast-125 opacity-80"
+              className="w-full h-full  contrast-125 opacity-80"
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
             />

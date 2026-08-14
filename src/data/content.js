@@ -8,15 +8,9 @@ export const firm = {
   city: 'Governador Valadares',
   state: 'MG',
   region: 'Vale do Rio Doce',
-  // ⚠️ Troque marlondcury pelo seu usuário/organização do GitHub assim que
-  // souber (ou pelo domínio próprio, se um dia sair do GitHub Pages). Usado
-  // no canonical, sitemap.xml, dados estruturados (JSON-LD) e Open Graph.
-  // Depois de trocar aqui, rode `npm run sitemap` de novo e atualize também
-  // index.html e public/robots.txt (têm a mesma URL fixa, veja o README).
+
   siteUrl: 'https://marlondcury.github.io/godinho-landing',
-  // Coordenadas aproximadas do centro de Governador Valadares — ajuste para o
-  // geocode exato do endereço (Google Maps > clique com o botão direito no
-  // prédio > copiar coordenadas) para melhorar a precisão do mapa e do SEO local.
+
   geo: { lat: -18.8549, lng: -41.9559 },
   instagram: '@godinhoadvocacia',
   instagramUrl: 'https://www.instagram.com/godinhoadvocacia/',
@@ -43,7 +37,7 @@ export const firm = {
   // Título e descrição padrão (fallback) usados em páginas sem SEO específico.
   defaultSeoTitle: 'Advogado em Governador Valadares | Godinho Advocacia e Assessoria Jurídica',
   defaultSeoDescription:
-    'Escritório de advocacia em Governador Valadares (MG) com mais de 12 anos de tradição. Atuação em Direito de Família, Penal, Previdenciário, do Consumidor e mais. Atendimento personalizado — agende sua consulta.',
+    'Escritório de advocacia em Governador Valadares (MG) com mais de 15 anos de tradição. Atuação em Direito de Família, Penal, Previdenciário, do Consumidor e mais. Atendimento personalizado — agende sua consulta.',
 }
 
 export const socialLinks = [
@@ -57,16 +51,15 @@ export const about = {
   title: 'Sobre',
   titleHighlight: 'nós',
   paragraphs: [
-    'Somos uma família de advogados, e o nosso escritório está há mais de 12 anos em Governador Valadares, sendo referência em diversas áreas do direito.',
+    'Somos uma família de advogados, e o nosso escritório está há mais de 15 anos em Governador Valadares, sendo referência em diversas áreas do direito.',
     'Somos um escritório que oferece um atendimento personalizado, comunicativo e compromissado em buscar as melhores soluções para as demandas de nossos clientes.',
-    'Atuamos utilizando ferramentas organizacionais de inteligência artificial e estamos sempre em busca de inovar.',
     'Para isso, contamos com advogados especializados, que recebem treinamentos voltados para a melhor atuação nos processos e atendimento ao cliente, o que garante a qualidade e agilidade dos serviços prestados.',
   ],
 }
 
 export const stats = [
-  { value: '12+', label: 'Anos de tradição em Governador Valadares' },
-  { value: '3', label: 'Advogados especialistas em diferentes áreas do direito' },
+  { value: '15+', label: 'Anos de tradição em Governador Valadares' },
+  { value: 'UMA EQUIPE', label: ' de Advogados especialistas em diferentes áreas do direito' },
   { value: '100%', label: 'Atendimento personalizado e próximo do cliente' },
 ]
 
@@ -271,10 +264,6 @@ export const differentiators = [
   {
     title: 'Tradição de família',
     description: 'Mais de 12 anos de história em Governador Valadares, construída por três gerações de advogados.',
-  },
-  {
-    title: 'Inovação e tecnologia',
-    description: 'Uso de ferramentas de inteligência artificial para agilizar processos e melhorar resultados.',
   },
   {
     title: 'Equipe especializada',
