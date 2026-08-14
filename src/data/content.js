@@ -263,7 +263,7 @@ export const differentiators = [
   },
   {
     title: 'Tradição de família',
-    description: 'Mais de 12 anos de história em Governador Valadares, construída por três gerações de advogados.',
+    description: 'Mais de 15 anos de história em Governador Valadares, construída por três gerações de advogados.',
   },
   {
     title: 'Equipe especializada',
